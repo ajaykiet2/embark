@@ -1,7 +1,9 @@
 var router = function(app){
 	//Getting Controller
 	var ctrler = require("./controller/embark");
-	
+	// Setting EJS as a view engine
+	app.set("view engine", "ejs");
+	app.set('views','./app/views'); 
 	// Defining Routing
 	app.get("/",function(req,res){
 		ctrler.home(req,res);
