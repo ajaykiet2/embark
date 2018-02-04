@@ -1,0 +1,99 @@
+<%- include('../common/header') %>
+<section id="breadcrumb-container">
+	<div class="inner-container container">
+		<div class="title-box">Contact Us</div>
+		<div class="breadcrumb-box">
+			<ul class="list-inline">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section class="contact-section">
+	<div class="inner-container container">
+		<div class="col-md-5 img-container animated-box" data-animation="fadeInLeft">
+			<div class="img-box gray img-effect animated-box" data-animation="img-in">
+				<div id="google-map" data-marker="../assets/img/marker.png"></div>
+			</div>
+		</div>
+		<div class="col-md-7 content animated-box" data-animation="fadeInRight">
+			<div class="acr-title right-bar">
+				<div class="inner-box">Contact <span>Information</span></div>
+			</div>
+			<div class="desc">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, beatae culpa deserunt dolorem dolores error id in itaque placeat, quidem quod repellendus sequi voluptatibus? Accusantium cum distinctio eos facilis minus nobis possimus quo quod veritatis. Beatae distinctio enim eos esse in nam porro repellat rerum sint. Error harum iusto minus rem! Consectetur culpa cupiditate dolor dolores enim error ex ipsa laudantium modi nostrum nulla pariatur quae quidem recusandae, reiciendis sunt unde. Consequuntur cupiditate dolorem dolorum esse itaque laboriosam placeat quas.
+				</p>
+				<ul class="contact-information">
+					<li><i class="fa fa-home"></i>1011 Kevin James Street San Diego, CA 92101</li>
+					<li><i class="fa fa-phone"></i>(012) 345-6789</li>
+					<li><i class="fa fa-envelope"></i>info@colosseum.com</li>
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</section>
+<section class="contact-form-section">
+	<div class="inner-container container">
+		<div class="acr-title">
+			<div class="inner-box">Contact <span>Form</span></div>
+		</div>
+		<div class="contact-form-box">
+			<form action="#">
+				<div class="field-row row">
+					<div class="col-md-6">
+						<label for="contact-name">Name* :</label>
+						<div class="input-container">
+							<input type="text" id="contact-name" name="contact-name" required></div>
+					</div>
+					<div class="col-md-6">
+						<label for="contact-email">Email* :</label>
+						<div class="input-container">
+							<input type="email" id="contact-email" name="contact-email" required>
+						</div>
+					</div>
+				</div>
+				<div class="field-row row">
+					<div class="col-md-6">
+						<label for="contact-phone">Phone :</label>
+						<div class="input-container">
+							<input type="text" id="contact-phone" name="contact-phone">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<label for="contact-website">Website :</label>
+						<div class="input-container">
+							<input type="email" id="contact-website" name="contact-website">
+						</div>
+					</div>
+				</div>
+				<div class="field-row row">
+					<div class="col-md-12">
+						<label for="contact-message">Message* :</label>
+						<div class="input-container">
+							<textarea name="contact-message" id="contact-message" required></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="btn-container">
+					<button type="submit" class="btn-type-2">Send</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+<section id="newsletter">
+	<div class="inner-container">
+		<div class="title">Stay Updated</div>
+		<div class="subtitle">Join our <strong>54,727</strong> subscribers and get access to the latest news!</div>
+		<form action="#" class="newsletter">
+			<input type="text" placeholder="Your Email Address">
+			<button type="submit">
+				<i class="fa fa-send"></i>
+			</button>
+		</form>
+	</div>
+</section>
+<%- include('../common/footer') %>
